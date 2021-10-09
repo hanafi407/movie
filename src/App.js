@@ -6,7 +6,6 @@ function App() {
     <div>
       <Heading />
       <List />
-      <List/>
     </div>
   );
 }
