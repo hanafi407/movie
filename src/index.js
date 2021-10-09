@@ -18,8 +18,7 @@ const book2 = {
 };
 const book3 = {
   img: "https://images-na.ssl-images-amazon.com/images/I/71KTSD8PwLS._AC_UL200_SR200,200_.jpg",
-  title:
-    "Taste: My Life Through Food",
+  title: "Taste: My Life Through Food",
   author: "Stanley Tucci",
 };
 function BookList() {
@@ -32,13 +31,13 @@ function BookList() {
   );
 }
 
-const Book = (props) => {
-  console.log(props);
+const Book = ({ img, title, author }) => {
+  // const {img,title,author}=props
   return (
     <article className="book">
-      <img src={props.img} alt="" />
-      <h1>{props.title}</h1>
-      <h4>{props.author}</h4>
+      <img src={img} alt="" />
+      <h1>{title}</h1>
+      <h4>{author}</h4>
     </article>
   );
 };
