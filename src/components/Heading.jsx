@@ -11,7 +11,7 @@ function Heading(){
 
   if(currentTime<12){
     greeting='Good Morning'
-    customStyle.color='red'
+    customStyle.color='green'
   }else if(currentTime<18){
     greeting="Good Afternoon"
     customStyle.color='orange'
