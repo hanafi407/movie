@@ -1,9 +1,12 @@
 import React from "react"
+import pi,{doublePi,triplePi} from "../math.js"
 
 function List(){
   return (
   <ul>
-    <li>daging</li>
+    <li>{pi}</li>
+    <li>{doublePi()}</li>
+    <li>{triplePi()}</li>
   </ul>
   )
               
